@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "status": "active",
+      "avatar": "https://i.pravatar.cc/150?u=admin@example.com",
+      "about": "System administrator",
+      "location": "Jakarta, Indonesia",
+      "phone": "+62812345678",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "John Doe",
+      "role": "user",
+      "status": "active",
+      "avatar": "https://i.pravatar.cc/150?u=user@example.com",
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "email": "inactive@example.com",
+      "password": "user123",
+      "name": "Jane Smith",
+      "role": "user",
+      "status": "inactive",
+      "avatar": "https://i.pravatar.cc/150?u=inactive@example.com",
+      "createdAt": "2024-02-01T08:00:00.000Z",
+      "updatedAt": "2024-02-01T08:00:00.000Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "Revolutionary AI Technology Transforms Healthcare Industry",
+      "description": "New artificial intelligence system shows promising results in early disease detection and diagnosis.",
+      "content": "A groundbreaking AI system developed by researchers has shown remarkable accuracy in detecting early signs of diseases. The technology uses advanced machine learning algorithms to analyze medical imaging and patient data, potentially saving countless lives through early intervention. Medical professionals around the world are showing great interest in adopting this technology.",
+      "author": "Dr. Sarah Johnson",
+      "category": "Technology",
+      "imageUrl": "https://picsum.photos/800/600?random=1",
+      "publishedAt": "2024-11-18T10:00:00.000Z",
+      "createdAt": "2024-11-18T09:00:00.000Z",
+      "updatedAt": "2024-11-18T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Global Markets Rally as Economic Outlook Improves",
+      "description": "Stock markets worldwide see significant gains following positive economic indicators.",
+      "content": "Major stock indices across the globe experienced substantial gains today as investors responded positively to improved economic forecasts. Leading economists suggest that the recovery is being driven by strong consumer spending and technological innovation. Market analysts predict continued growth in the coming quarters, though they caution investors to remain vigilant about potential risks.",
+      "author": "Michael Chen",
+      "category": "Business",
+      "imageUrl": "https://picsum.photos/800/600?random=2",
+      "publishedAt": "2024-11-17T15:30:00.000Z",
+      "createdAt": "2024-11-17T14:00:00.000Z",
+      "updatedAt": "2024-11-17T14:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Championship Finals Set Record Viewership Numbers",
+      "description": "Historic sports event draws millions of viewers worldwide in thrilling finale.",
+      "content": "The championship finals captivated audiences around the world, setting new records for viewership. The intense competition kept fans on the edge of their seats until the final moments. Commentators praised the exceptional skill and sportsmanship displayed by all athletes. The event's success has sparked renewed interest in the sport, with participation rates already showing significant increases.",
+      "author": "James Rodriguez",
+      "category": "Sports",
+      "imageUrl": "https://picsum.photos/800/600?random=3",
+      "publishedAt": "2024-11-16T20:00:00.000Z",
+      "createdAt": "2024-11-16T19:00:00.000Z",
+      "updatedAt": "2024-11-16T19:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Blockbuster Film Breaks Box Office Records Worldwide",
+      "description": "Highly anticipated movie surpasses expectations with record-breaking opening weekend.",
+      "content": "The latest blockbuster from acclaimed director has shattered box office records globally, earning over $500 million in its opening weekend. Critics and audiences alike have praised the film's stunning visual effects, compelling storyline, and exceptional performances. Theater chains are adding more screenings to meet unprecedented demand. Industry experts predict the film will become one of the highest-grossing movies of all time.",
+      "author": "Emma Thompson",
+      "category": "Entertainment",
+      "imageUrl": "https://picsum.photos/800/600?random=4",
+      "publishedAt": "2024-11-15T12:00:00.000Z",
+      "createdAt": "2024-11-15T11:00:00.000Z",
+      "updatedAt": "2024-11-15T11:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Breakthrough Study Reveals New Insights into Mental Health",
+      "description": "Researchers discover innovative approaches to treating anxiety and depression.",
+      "content": "A comprehensive study published today reveals groundbreaking findings in mental health treatment. The research team has identified new therapeutic approaches that show significant promise in treating anxiety and depression. The study involved thousands of participants over several years and has been peer-reviewed by leading experts in the field. Mental health professionals are optimistic about implementing these findings in clinical practice.",
+      "author": "Dr. Robert Williams",
+      "category": "Health",
+      "imageUrl": "https://picsum.photos/800/600?random=5",
+      "publishedAt": "2024-11-14T08:00:00.000Z",
+      "createdAt": "2024-11-14T07:00:00.000Z",
+      "updatedAt": "2024-11-14T07:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Scientists Make Major Discovery in Space Exploration",
+      "description": "New findings from deep space telescope could revolutionize our understanding of the universe.",
+      "content": "Astronomers have announced a remarkable discovery that could fundamentally change our understanding of the cosmos. Using advanced telescope technology, researchers have identified previously unknown phenomena in distant galaxies. The discovery has implications for theories about the formation and evolution of the universe. Scientists around the world are collaborating to study this finding further and unlock its secrets.",
+      "author": "Dr. Lisa Anderson",
+      "category": "Science",
+      "imageUrl": "https://picsum.photos/800/600?random=6",
+      "publishedAt": "2024-11-13T16:00:00.000Z",
+      "createdAt": "2024-11-13T15:00:00.000Z",
+      "updatedAt": "2024-11-13T15:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Historic Climate Agreement Reached at Global Summit",
+      "description": "World leaders commit to ambitious new targets for reducing carbon emissions.",
+      "content": "In a historic move, leaders from over 190 countries have agreed to strengthen their commitments to combat climate change. The agreement includes specific targets for reducing carbon emissions and transitioning to renewable energy sources. Environmental groups have cautiously welcomed the announcement while emphasizing the need for immediate action. The agreement represents the most comprehensive global effort to address climate change to date.",
+      "author": "Patricia Martinez",
+      "category": "Politics",
+      "imageUrl": "https://picsum.photos/800/600?random=7",
+      "publishedAt": "2024-11-12T10:30:00.000Z",
+      "createdAt": "2024-11-12T09:00:00.000Z",
+      "updatedAt": "2024-11-12T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "Natural Disaster Relief Efforts Unite International Community",
+      "description": "Countries worldwide mobilize resources to support disaster-affected regions.",
+      "content": "Following a devastating natural disaster, the international community has rallied together in an unprecedented show of solidarity. Countries from around the world are sending aid, rescue teams, and resources to affected areas. Humanitarian organizations are coordinating relief efforts on the ground, providing essential supplies and medical care to those in need. The disaster has highlighted the importance of global cooperation in facing shared challenges.",
+      "author": "David Brown",
+      "category": "World",
+      "imageUrl": "https://picsum.photos/800/600?random=8",
+      "publishedAt": "2024-11-11T14:00:00.000Z",
+      "createdAt": "2024-11-11T13:00:00.000Z",
+      "updatedAt": "2024-11-11T13:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "News App Starter Kit - Expo 54 + React Native + TypeScript",
+  "aiGuide": "AI_GUIDE.md",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+
+  "projectStructure": {
+    "screensPath": "app",
+    "componentsPath": "src/components",
+    "hooksPath": "src/hooks",
+    "servicesPath": "src/services",
+    "mockApiPath": "src/services/mockApi",
+    "storePath": "src/store",
+    "typesPath": "src/types",
+    "utilsPath": "src/utils",
+    "themePath": "src/theme",
+    "configPath": "src/config",
+    "assetsPath": "src/assets"
+  },
+
+  "mockData": {
+    "database": "server/db.json",
+    "mockApiHandlers": "src/services/mockApi"
+  },
+
+  "configuration": {
+    "appConfig": "app.config.js",
+    "tsconfig": "tsconfig.json",
+    "babelConfig": "babel.config.js",
+    "tailwindConfig": "tailwind.config.js",
+    "metroConfig": "metro.config.js"
+  },
+
+  "conventions": {
+    "pathAlias": "@/",
+    "styling": "NativeWind (Tailwind CSS)",
+    "stateManagement": "Zustand",
+    "routing": "Expo Router (file-based)",
+    "apiClient": "Axios",
+    "dataFetching": "TanStack Query",
+    "mockApiRequired": true,
+    "typeScriptRequired": true
+  },
+
+  "instructions": [
+    "1. Read AI_GUIDE.md before generating any code",
+    "2. Always use @/ path alias for imports",
+    "3. All services must support Mock API (USE_MOCK_API check)",
+    "4. Use NativeWind classes for styling",
+    "5. Follow existing patterns before creating new files",
+    "6. Add mock data to server/db.json",
+    "7. Keep authentication system as-is unless asked",
+    "8. Update CHANGELOG.md when adding features or making significant changes"
+  ]
+}
